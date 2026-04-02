@@ -21,7 +21,7 @@ BEGIN
 				
     	EXIT WHEN v_ClienteID >= 2;
 	END LOOP;
-     	DBMS_OUTPUT.PUT_LINE('Procesamiento completado.');
+     	DBMS_OUTPUT.PUT_LINE('Procesamiento completado...');
 END;
 
 	
