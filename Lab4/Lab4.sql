@@ -23,7 +23,7 @@ BEGIN
 
 EXCEPTION
     WHEN precio_bajo THEN
-    DBMS_OUTPUT.PUT_LINE('Error: El precio es muy bajo'(' v_Productoprecio').');
+    DBMS_OUTPUT.PUT_LINE('Error: El precio es muy bajo'(' v_Productoprecio'));
     WHEN NO_DATA_FOUND THEN
     DBMS_OUTPUT.PUT_LINE('Error: Producto no disponible.');
     WHEN memory_overflow THEN
